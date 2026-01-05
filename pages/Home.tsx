@@ -57,11 +57,11 @@ const Home: React.FC = () => {
       <section className="pt-10 pb-16 md:pt-20 md:pb-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[500px]">
         {/* Left: Content */}
         <div className="max-w-3xl">
-          <h1 className="text-5xl md:text-7xl font-serif font-light mb-8 text-anthropic-text leading-tight">
+          <h1 className="text-4xl md:text-5xl font-serif font-light mb-8 text-anthropic-text leading-tight">
             Building self-evolving<br />
             AI agents.
           </h1>
-          <p className="text-xl md:text-2xl font-sans font-light text-anthropic-gray leading-relaxed mb-8">
+          <p className="text-lg md:text-xl font-sans font-light text-anthropic-gray leading-relaxed mb-8">
             I'm Mingzhe Li, a prospective Ph.D. student at Fudan University × Shanghai Innovation Institute.
             My research focuses on Reinforcement Learning, Self-Evolving Agents and Synthetic Data Generation. I aim to stimulate the self-evolving capabilities of LLM-based agents in real-world environments.
           </p>
