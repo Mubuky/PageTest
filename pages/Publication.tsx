@@ -5,7 +5,7 @@ import { PUBLICATIONS } from '../constants';
 const Publication: React.FC = () => {
   return (
     <div className="animate-fade-in pt-12 pb-20">
-       <div className="max-w-4xl mx-auto">
+       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-baseline md:justify-between mb-12">
           <h1 className="text-4xl md:text-5xl font-serif font-light text-anthropic-text mb-4 md:mb-0">Publications</h1>
           <p className="text-anthropic-gray font-sans font-light">

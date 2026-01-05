@@ -6,7 +6,7 @@ import { PERSONAL_INFO, SOCIAL_LINKS } from '../constants';
 const About: React.FC = () => {
   return (
     <div className="animate-fade-in pt-12 pb-20">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="mb-12">
           <h1 className="text-4xl md:text-5xl font-serif font-light mb-4 text-anthropic-text">About Me</h1>

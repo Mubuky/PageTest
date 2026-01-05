@@ -56,7 +56,7 @@ const Home: React.FC = () => {
       {/* Hero Section */}
       <section className="pt-10 pb-16 md:pt-20 md:pb-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[500px]">
         {/* Left: Content */}
-        <div className="max-w-2xl">
+        <div className="max-w-3xl">
           <h1 className="text-5xl md:text-7xl font-serif font-light mb-8 text-anthropic-text leading-tight">
             Building self-evolving<br />
             AI agents.

@@ -77,7 +77,7 @@ const Blog: React.FC = () => {
 
   return (
     <div className="animate-fade-in pt-12 pb-20">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         
         {/* Detail View */}
         {activePost ? (
