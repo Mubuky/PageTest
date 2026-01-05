@@ -67,7 +67,7 @@ const Home: React.FC = () => {
             supervised and aligned.
           </h1>
           <p className="text-xl md:text-2xl font-sans font-light text-anthropic-gray leading-relaxed mb-8">
-            I’m Rui Wu, a junior undergraduate at Rutgers University (CS). 
+            I’m Mingzhe Li, a junior undergraduate at Rutgers University (CS). 
             My research revolves around Alignment Science, developing methodologies to ensure AI systems become supervised and aligned with human intentions. While my long-term vision spans scalable oversight without human feedbacks.
           </p>
 
