@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo / Name */}
         <NavLink to="/" className="text-2xl font-serif font-medium tracking-tight hover:opacity-70 transition-opacity">
-          Rui Wu
+          Mingzhe Li
         </NavLink>
 
         {/* Desktop Menu */}

@@ -55,7 +55,7 @@ const Publication: React.FC = () => {
                  
                  <p className="text-anthropic-gray text-base mb-3 font-light">
                    {pub.authors.map((author, idx) => (
-                     <span key={idx} className={author.includes("Rui Wu") ? "font-bold text-anthropic-text" : ""}>
+                     <span key={idx} className={author.includes("Mingzhe Li") ? "font-bold text-anthropic-text" : ""}>
                        {author}{idx < pub.authors.length - 1 ? ", " : ""}
                      </span>
                    ))}
