@@ -3,9 +3,9 @@ import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import About from './pages/About';
 import Blog from './pages/Blog';
 import Publication from './pages/Publication';
-import Travel from './pages/Travel';
 
 // Scroll to top on route change
 const ScrollToTop = () => {
@@ -76,9 +76,9 @@ const App: React.FC = () => {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/about" element={<About />} />
             <Route path="/publications" element={<Publication />} />
-            <Route path="/travel" element={<Travel />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
         </Layout>
       </HashRouter>
